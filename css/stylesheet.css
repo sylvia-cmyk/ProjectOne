@@ -128,9 +128,6 @@ nav a:hover{
 
 .flexcontainerOne{
     display: inline-flex;
-    @media screen{
-      min-width: fit-content;
-    }
   }
   
   .wrapperOne{
@@ -141,6 +138,12 @@ nav a:hover{
     margin: 5px 30px 20px 10px;
     font-size: 15px;
   }
+
+  @media screen and (max-width: 768px) {
+    .wrapperTwo {
+        flex-direction: column;
+    }
+}
 
   /* -------------- Inspirations ------------------- */
 

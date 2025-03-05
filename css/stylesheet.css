@@ -127,8 +127,8 @@ nav a:hover{
 }
 
 .flexcontainerOne{
-    display: inline-flex;
-  }
+  display: inline-flex;
+}
   
   .wrapperOne{
     margin: 5px 60px 60px 30px;
@@ -140,8 +140,8 @@ nav a:hover{
   }
 
   @media screen and (max-width: 768px) {
-    .wrapperTwo {
-        flex-direction: column;
+    .flexcontainerOne {
+      width: calc(100% - 20px);
     }
 }
 

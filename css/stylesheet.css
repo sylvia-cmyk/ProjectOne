@@ -102,6 +102,12 @@ img{
     font-size: 22px;
 }
 
+#namegif{
+    box-shadow: none;
+    width: 480px;
+
+}
+
 .flexcontainerOne{
     display: inline-flex;
   }
@@ -165,10 +171,16 @@ footer{
     width: 370px;
   }
 
+  .column{
+    background-color: rgb(158, 190, 215);
+    border-radius: 50%;
+    margin: 30px 40px;
+  }
+
   .imgfives-flexcontainer{
     display: inline-flex;
     margin-bottom: 20px;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-right: 49px;
   }
 

@@ -104,7 +104,7 @@ img{
 
 #namegif{
     box-shadow: none;
-    width: 480px;
+    width: 470px;
 
 }
 
@@ -113,11 +113,12 @@ img{
   }
   
   .wrapperOne{
-    margin: 5px 90px 60px 90px;
+    margin: 5px 60px 60px 30px;
   }
 
   .wrapperTwo{
-    margin: 5px 60px 20px 40px;
+    margin: 5px 30px 20px 10px;
+    font-size: 15px;
   }
 
   li{

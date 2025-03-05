@@ -1,5 +1,5 @@
 header h1{
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Margarine';
     font-weight: 600;
     font-size: 37px;
     text-align: center;
@@ -9,7 +9,7 @@ header h1{
 }
 
 section h2{
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Margarine';
     font-weight: 600;
     font-size: 37px;
     text-align: center;
@@ -23,7 +23,7 @@ body{
 }
 
 nav{
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Margarine';
     font-weight: 600;
     font-size: 16px;
     color: #dae9f4;
@@ -35,46 +35,13 @@ nav{
     margin:0%;
 }
 
-#etc{
-    text-decoration: none;
-    color: #1e4281;
+nav a{
+    transition: 0.4s;
 }
 
-#etctwo{
-    text-decoration: none;
-    color:#dae9f4;
-}
-
-#etcthree{
-    text-decoration: none;
-    color:#557bb8;
-}
-
-#me{
-    width: 500px;
-}
-
-img{
-    display: block;
-    width: 700px;
-    height: auto;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-
-footer{
-    background-color: #557bb8;
-    color:#dae9f4;
-    font-family: 'Josefin Sans', sans-serif;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    text-align:center;
-}
-
-#mail-link{
-    text-decoration: none;
-    color:#dae9f4;
+nav a:hover{
+    opacity: 87%;
+    font-size: 20px;
 }
 
 section p{
@@ -85,29 +52,180 @@ section p{
 
 section a{
     font-weight: bold;
+    font-family: 'Margarine';
     color:#557bb8;
     font-size: 25px;
     text-align: center;
+  }
+
+img{
+    display: block;
+    width: 750px;
+    height: auto;
+    transition: 0.3s;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 li{
     text-align: center;
     color:#557bb8;
     font-size: 30px;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-.imgfives img{
-    width:350px;
+    font-family: 'Margarine';
 }
 
 ol{
-    text-align: center;
     list-style-position: inside;
+    text-align: center;
   }
 
 ul{
     text-align: center;
     list-style-position: inside;
+  }
+
+  footer{
+    background-color: #557bb8;
+    color:#dae9f4;
+    font-family: 'Margarine';
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align:center;
+}
+
+#etc{
+    text-decoration: none;
+    color: #1e4281;
+    font: 'Margarine';
+}
+
+#etctwo{
+    text-decoration: none;
+    color:#dae9f4;
+}
+
+#etcthree{
+    text-decoration: none;
+    color:#557bb8;
+    transition: 0.4s;
+}
+
+#etcthree:hover{
+    opacity: 87%;
+    font-size: 30px;
+}
+
+#me{
+    width: 500px;
+    border-radius: 25px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+#footer-links{
+    text-decoration: none;
+    color:#dae9f4;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+#footer-links:hover{
+    opacity: 87%;
+    font-size: 18px;
+}
+
+  .flexcontainerOne{
+    display: inline-flex;
+  }
+  
+  .wrapperOne{
+    margin: 5px 90px 60px 90px;
+  }
+
+  .wrapperTwo{
+    margin: 5px 50px 20px 40px;
+  }
+
+
+/* ----------------------------------- */
+
+
+#imgfives img{
+    border-radius: 25px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+    transition: 0.4s;
+    width: 370px;
+  }
+
+  .imgfives-flexcontainer{
+    display: inline-flex;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-right: 49px;
+  }
+
+  .container-wrapperOne{
+    width: 50%;
+  }
+
+  .container-wrapperTwo{
+    width: 50%;
+  }
+
+  .imgfives-flexcontainerTwo{
+    display: inline-flex;
+    margin-right: 50px;
+  }
+
+  .container-wrapperThree{
+    width: 50%;
+  }
+
+  .container-wrapperFour{
+    width: 50%;
+  }
+
+  /* ----------------------------------- */
+
+
+  .imgfives-flexcontainerThree{
+    display: inline-flex;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-right: 40px;
+  }
+
+  .container-wrapperFive{
+    width: 50%;
+  }
+
+  .container-wrapperSix{
+    width: 50%;
+  }
+
+  .imgfives-flexcontainerFour{
+    display: inline-flex;
+    margin-right: 50px;
+  }
+
+  .container-wrapperSeven{
+    width: 50%;
+    margin-left: 50px;
+  }
+
+  .container-wrapperEight{
+    width: 50%;
+  }
+
+  /* ----------------------------------- */
+
+  #imgfives:hover{
+    opacity: 87%;
+    background-color: darkblue;
+    width: 410px;
+  }
+
+  #singular{
+    margin-right: 50px;
   }

@@ -1,15 +1,7 @@
+/*---------- General Section -------------*/
+
 body{
     background-color: #c9e3eb;
-}
-
-header h1{
-    font-family: 'Margarine';
-    font-weight: 600;
-    font-size: 37px;
-    text-align: center;
-    padding-top: 15px;
-    margin-left:8%;
-    margin-right:8%;
 }
 
 nav{
@@ -26,13 +18,14 @@ nav{
     border-radius: 25px;
 }
 
-nav a{
-    transition: 0.4s;
-}
-
-nav a:hover{
-    opacity: 80%;
-    font-size: 20px;
+header h1{
+    font-family: 'Margarine';
+    font-weight: 600;
+    font-size: 37px;
+    text-align: center;
+    padding-top: 15px;
+    margin-left:8%;
+    margin-right:8%;
 }
 
 section h2{
@@ -70,27 +63,52 @@ img{
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
 }
 
-#etc{
+footer{
+    background-color: #557bb8;
+    color:#dae9f4;
+    font-family: 'Margarine';
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align:center;
+    border-radius: 25px;
+    word-spacing: 30px;
+}
+
+/*-------------- General Section Class & IDs ----------------*/
+
+nav a{
+    transition: 0.4s;
+}
+
+nav a:hover{
+    opacity: 80%;
+    font-size: 20px;
+}
+
+#nav{
+    text-decoration: none;
+    color:#dae9f4;
+}
+
+#title{
     text-decoration: dotted underline;
     color: #1e4281;
     font: 'Margarine';
 }
 
-#etctwo{
+#footer-links{
     text-decoration: none;
     color:#dae9f4;
-}
-
-#etcthree{
-    text-decoration: none;
-    color:#557bb8;
+    font-size: 15px;
     transition: 0.4s;
 }
 
-#etcthree:hover{
+#footer-links:hover{
     opacity: 80%;
-    font-size: 28px;
+    font-size: 20px;
 }
+
+/*-------------- Home Page CLass & IDs ----------------*/
 
 #me{
     width: 500px;
@@ -121,6 +139,8 @@ img{
     font-size: 15px;
   }
 
+  /* -------------- Inspirations ------------------- */
+
   li{
     text-align: center;
     color:#557bb8;
@@ -138,31 +158,20 @@ ul{
     list-style-position: inside;
   }
 
-footer{
-    background-color: #557bb8;
-    color:#dae9f4;
-    font-family: 'Margarine';
-    padding-top: 10px;
-    padding-bottom: 10px;
-    text-align:center;
-    border-radius: 25px;
-    word-spacing: 30px;
-}
+  /*--------------- Inspirations Class & IDs --------------*/
 
-#footer-links{
+#subject-title{
     text-decoration: none;
-    color:#dae9f4;
-    font-size: 15px;
+    color:#557bb8;
     transition: 0.4s;
 }
 
-#footer-links:hover{
+#subject-title:hover{
     opacity: 80%;
-    font-size: 20px;
+    font-size: 28px;
 }
 
-
-/* ----------------------------------- */
+/* --------------- TopFives Class & IDs -------------------- */
 
 
 #imgfives img{
@@ -170,6 +179,12 @@ footer{
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
     transition: 0.4s;
     width: 370px;
+  }
+
+  #imgfives:hover{
+    opacity: 87%;
+    background-color: darkblue;
+    width: 410px;
   }
 
   .column{
@@ -239,12 +254,6 @@ footer{
   }
 
   /* ----------------------------------- */
-
-  #imgfives:hover{
-    opacity: 87%;
-    background-color: darkblue;
-    width: 410px;
-  }
 
   #singular{
     margin-right: 50px;
